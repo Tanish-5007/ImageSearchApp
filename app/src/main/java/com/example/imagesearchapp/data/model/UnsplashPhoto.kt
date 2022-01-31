@@ -1,4 +1,4 @@
-package com.example.imagesearchapp
+package com.example.imagesearchapp.data.model
 
 
 import com.google.gson.annotations.SerializedName
@@ -17,4 +17,4 @@ data class UnsplashPhoto(
     @SerializedName("user")
     val user: User,
 
-)
+    )
