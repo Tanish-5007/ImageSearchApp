@@ -27,9 +27,7 @@ class UnsplashPhotoAdapter: PagingDataAdapter<UnsplashPhoto, UnsplashPhotoAdapte
 
     }
 
-    class PhotoViewHolder(private val binding: ItemUnsplashPhotoBinding):
-        RecyclerView.ViewHolder(binding.root){
-
+    class PhotoViewHolder(private val binding: ItemUnsplashPhotoBinding): RecyclerView.ViewHolder(binding.root){
             fun bind(photo: UnsplashPhoto){
                 Glide.with(itemView)
                     .load(photo.urls.regular)
